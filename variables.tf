@@ -25,7 +25,7 @@ variable "key_name" {
 variable "sg_name" {
   description = "Name of EC2 security group"
   type        = string
-  default     = "lcchua-allow-ssh-http" # Change accordingly
+  default     = "lcchua-ec2-security-group" # Change accordingly
 }
 
 variable "vpc_name" {
