@@ -19,13 +19,13 @@ variable "instance_type" {
 variable "key_name" {
   description = "Name of EC2 Key Pair"
   type        = string
-  default     = "lcchua-useast1-13072024" # Change accordingly
+  default     = "lcchua-useast1-20072024" # Change accordingly
 }
 
 variable "sg_name" {
   description = "Name of EC2 security group"
   type        = string
-  default     = "lcchua-ec2-allow-ssh-http-https" # Change accordingly
+  default     = "lcchua-allow-ssh-http" # Change accordingly
 }
 
 variable "vpc_name" {
