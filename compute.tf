@@ -2,9 +2,9 @@
 resource "aws_instance" "sample_ec2_hardcoded" {
   ami           = "ami-0b72821e2f351e396"
   instance_type = "t2.micro"
-  key_name      = "lcchua-useast1-13072024" # change to your own keypair name
+  key_name      = "lcchua-useast1-20072024" # change to your own keypair name
   subnet_id     = "subnet-0b3f026e9d6288a67" # change to your own vpc subnet id
-  associate_public_ip_address = true
+  associate_public_ip_address = tr
   vpc_security_group_ids = [aws_security_group.ec2_sg.id]
 
   tags = {
